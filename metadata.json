@@ -1,0 +1,7 @@
+{
+  "name": "VotesMatrix",
+  "description": "The Ultimate Digital Campaign Hub for Modern Nigerian Leaders & Political Candidates",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
