@@ -1,6 +1,6 @@
 {
   "name": "VotesMatrix",
-  "description": "Nigeria Political Intelligence & Campaign Operations Hub — Real-time voter intelligence and high-command campaign infrastructure for Nigerian political leaders.",
+  "description": "Fast, High-Impact Digital Campaign Websites & Supporter Hubs for Nigerian Candidates — Get your candidate's official campaign hub live in 48 hours.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
