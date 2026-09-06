@@ -105,12 +105,12 @@
           </span>
           <span class="text-slate-300 hidden sm:inline">176,846 Polling Units Matrix • 774 LGAs • 36 States & FCT Integrated</span>
         </div>
-        <div class="flex items-center gap-4 text-slate-400">
+        <div class="flex items-center gap-4 text-slate-200">
           <span class="hidden md:flex items-center gap-1.5">
             <i class="fa-solid fa-lock text-emerald-400 text-[11px]"></i>
-            <span class="text-slate-300">NDPR Certified • Bank-Grade 256-Bit</span>
+            <span class="text-slate-200 font-medium">NDPR Certified • Bank-Grade 256-Bit</span>
           </span>
-          <a href="tel:09068887282" class="hover:text-emerald-400 text-slate-200 transition-colors font-semibold flex items-center gap-1.5">
+          <a href="tel:09068887282" class="hover:text-emerald-400 text-slate-100 transition-colors font-bold flex items-center gap-1.5">
             <i class="fa-solid fa-phone text-emerald-400"></i>
             <span>Campaign Desk: 09068887282</span>
           </a>
@@ -135,7 +135,7 @@
                 <span class="font-display font-extrabold text-2xl tracking-tight text-white">Votes<span class="text-emerald-400">Matrix</span></span>
                 <span class="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-white/10 text-emerald-300 border border-white/10">AGENCY</span>
               </div>
-              <p class="text-[10px] font-semibold text-slate-400 tracking-wider uppercase">Campaign Web & Supporter Hubs</p>
+              <p class="text-[10px] font-bold text-slate-200 tracking-wider uppercase">Campaign Web & Supporter Hubs</p>
             </div>
           </a>
 
@@ -157,21 +157,21 @@
 
           <!-- Desktop CTA Actions -->
           <div class="hidden sm:flex items-center gap-3">
-            <a href="tel:09068887282" class="px-3.5 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white hover:bg-white/5 border border-white/10 transition-colors">
-              <i class="fa-solid fa-phone mr-1.5 text-emerald-400"></i>09068887282
+            <a href="tel:09068887282" class="min-h-[44px] px-3.5 py-2.5 rounded-xl text-xs font-bold text-slate-200 hover:text-white hover:bg-white/5 border border-white/15 transition-colors flex items-center">
+              <i class="fa-solid fa-phone mr-2 text-emerald-400"></i>09068887282
             </a>
-            <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." 
+            <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages." 
                target="_blank" 
                rel="noopener noreferrer" 
-               class="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-bold px-5 py-2.5 rounded-xl text-sm transition-all duration-200 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-400/40 transform hover:-translate-y-0.5">
+               class="min-h-[44px] inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-black px-5 py-2.5 rounded-xl text-sm transition-all duration-200 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-400/40 transform hover:-translate-y-0.5">
               <i class="fa-brands fa-whatsapp text-lg"></i>
               <span>Request Website Package</span>
             </a>
           </div>
 
-          <!-- Mobile Hamburger Toggle -->
+          <!-- Mobile Hamburger Toggle (44px touch target) -->
           <div class="lg:hidden flex items-center">
-            <button id="mobile-menu-btn" type="button" class="p-2.5 rounded-xl text-slate-300 hover:text-white hover:bg-white/5 focus:outline-none" aria-label="Toggle Navigation Menu">
+            <button id="mobile-menu-btn" type="button" class="w-11 h-11 flex items-center justify-center rounded-xl text-slate-200 hover:text-white hover:bg-white/10 border border-white/10 focus:outline-none cursor-pointer" aria-label="Toggle Navigation Menu">
               <i id="menu-icon" class="fa-solid fa-bars text-xl"></i>
             </button>
           </div>
@@ -179,43 +179,43 @@
         </div>
       </div>
 
-      <!-- Mobile Dropdown Navigation -->
-      <div id="mobile-menu" class="hidden lg:hidden border-t border-white/10 bg-navy-900/98 px-4 pt-3 pb-6 space-y-3">
-        <a href="#intelligence" class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-medium text-slate-200 hover:bg-white/5 hover:text-emerald-400">
-          <i class="fa-solid fa-chart-pie mr-2 text-emerald-400"></i> Voter Intelligence Dashboard
+      <!-- Mobile Dropdown Navigation (Mobile-First touch targets >= 44px) -->
+      <div id="mobile-menu" class="hidden lg:hidden border-t border-white/10 bg-navy-900/98 px-4 pt-3 pb-6 space-y-2 shadow-2xl">
+        <a href="#intelligence" class="mobile-nav-link min-h-[44px] flex items-center py-3 px-3.5 rounded-xl text-sm font-semibold text-slate-100 hover:bg-white/10 hover:text-emerald-400 transition-colors">
+          <i class="fa-solid fa-chart-pie mr-2.5 text-emerald-400 text-base"></i> Voter Intelligence Dashboard
         </a>
-        <a href="#constituency-lookup" class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-medium text-slate-200 hover:bg-white/5 hover:text-emerald-400">
-          <i class="fa-solid fa-location-crosshairs mr-2 text-emerald-400"></i> Constituency Lookup Tool
+        <a href="#constituency-lookup" class="mobile-nav-link min-h-[44px] flex items-center py-3 px-3.5 rounded-xl text-sm font-semibold text-slate-100 hover:bg-white/10 hover:text-emerald-400 transition-colors">
+          <i class="fa-solid fa-location-crosshairs mr-2.5 text-emerald-400 text-base"></i> Constituency Lookup Tool
         </a>
-        <a href="#solutions" class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-medium text-slate-200 hover:bg-white/5 hover:text-emerald-400">
-          <i class="fa-solid fa-cube mr-2 text-emerald-400"></i> Campaign Hub Features
+        <a href="#solutions" class="mobile-nav-link min-h-[44px] flex items-center py-3 px-3.5 rounded-xl text-sm font-semibold text-slate-100 hover:bg-white/10 hover:text-emerald-400 transition-colors">
+          <i class="fa-solid fa-cube mr-2.5 text-emerald-400 text-base"></i> Campaign Hub Features
         </a>
-        <a href="#deliverables" class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-medium text-slate-200 hover:bg-white/5 hover:text-emerald-400">
-          <i class="fa-solid fa-laptop-code mr-2 text-emerald-400"></i> Key Web Deliverables
+        <a href="#deliverables" class="mobile-nav-link min-h-[44px] flex items-center py-3 px-3.5 rounded-xl text-sm font-semibold text-slate-100 hover:bg-white/10 hover:text-emerald-400 transition-colors">
+          <i class="fa-solid fa-laptop-code mr-2.5 text-emerald-400 text-base"></i> Key Web Deliverables
         </a>
-        <a href="#pricing" class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-medium text-slate-200 hover:bg-white/5 hover:text-emerald-400">
-          <i class="fa-solid fa-tags mr-2 text-emerald-400"></i> Pricing & Packages
+        <a href="#pricing" class="mobile-nav-link min-h-[44px] flex items-center py-3 px-3.5 rounded-xl text-sm font-semibold text-slate-100 hover:bg-white/10 hover:text-emerald-400 transition-colors">
+          <i class="fa-solid fa-tags mr-2.5 text-emerald-400 text-base"></i> Pricing & Packages
         </a>
-        <a href="#contact" class="mobile-nav-link block py-2.5 px-3 rounded-lg text-sm font-medium text-slate-200 hover:bg-white/5 hover:text-emerald-400">
-          <i class="fa-solid fa-envelope mr-2 text-emerald-400"></i> Contact & Direct Briefing
+        <a href="#contact" class="mobile-nav-link min-h-[44px] flex items-center py-3 px-3.5 rounded-xl text-sm font-semibold text-slate-100 hover:bg-white/10 hover:text-emerald-400 transition-colors">
+          <i class="fa-solid fa-envelope mr-2.5 text-emerald-400 text-base"></i> Contact & Direct Briefing
         </a>
 
-        <div class="pt-2 border-t border-white/10 space-y-2">
-          <a href="tel:09068887282" class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-semibold bg-white/5 text-slate-200 border border-white/10">
+        <div class="pt-3 border-t border-white/10 space-y-2.5">
+          <a href="tel:09068887282" class="w-full min-h-[48px] flex items-center justify-center gap-2.5 py-3 px-4 rounded-xl text-sm font-bold bg-white/10 hover:bg-white/15 text-white border border-white/15 transition-colors">
             <i class="fa-solid fa-phone text-emerald-400"></i> Call Official Desk: 09068887282
           </a>
-          <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." 
+          <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages." 
              target="_blank" 
              rel="noopener noreferrer" 
-             class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold bg-emerald-500 text-navy-950">
-            <i class="fa-brands fa-whatsapp text-lg"></i> Request Website Package via WhatsApp
+             class="w-full min-h-[48px] flex items-center justify-center gap-2.5 py-3 px-4 rounded-xl text-sm font-black bg-emerald-500 hover:bg-emerald-400 text-navy-950 transition-colors shadow-lg">
+            <i class="fa-brands fa-whatsapp text-xl"></i> Request Website Package via WhatsApp
           </a>
         </div>
       </div>
     </header>
 
     <!-- SECTION 1: HERO SECTION & REAL-TIME POLITICAL INTELLIGENCE DASHBOARD -->
-    <section id="intelligence" class="relative pt-8 pb-20 lg:pt-12 lg:pb-28 overflow-hidden bg-radar-grid">
+    <section id="intelligence" class="relative pt-6 pb-16 sm:pt-8 sm:pb-20 lg:pt-12 lg:pb-28 overflow-hidden bg-radar-grid">
       <!-- Background Ambient Glow Accents -->
       <div class="absolute top-10 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-emerald-500/10 blur-[130px] rounded-full pointer-events-none"></div>
       <div class="absolute top-96 right-0 w-[400px] h-[400px] bg-blue-600/10 blur-[140px] rounded-full pointer-events-none"></div>
@@ -226,100 +226,101 @@
         <div class="text-center max-w-4xl mx-auto space-y-5">
           
           <!-- Category Pill -->
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold tracking-wider uppercase">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 text-xs font-bold tracking-wider uppercase">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             Fast, High-Impact Digital Campaign Websites & Supporter Hubs
           </div>
 
-          <!-- Main High-Impact Headline -->
-          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.1]">
+          <!-- Main High-Impact Headline (Solid, Crisp, 100% Legible on Mobile & Desktop) -->
+          <h1 class="font-display text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15]">
             High-Impact Digital Campaign Websites & <br class="hidden sm:inline" />
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-emerald-300 to-teal-200">
+            <span class="text-emerald-400">
               Supporter Hubs for Nigerian Candidates
             </span>
           </h1>
 
-          <!-- Subtitle Targeted at Leaders -->
-          <p class="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-3xl mx-auto">
+          <!-- Subtitle Targeted at Leaders (High Contrast text-slate-200) -->
+          <p class="text-base sm:text-lg lg:text-xl text-slate-200 font-normal leading-relaxed max-w-3xl mx-auto">
             Get your official candidate digital headquarters live in 48 hours. Equip your campaign with an authoritative manifesto portal, viral WhatsApp supporter cards, volunteer onboarding, and election-day polling unit forms.
           </p>
 
           <!-- Candidate Tier Badges -->
           <div class="flex flex-wrap items-center justify-center gap-2 pt-2 text-xs font-semibold">
-            <span class="bg-navy-850/90 hover:bg-navy-800 border border-white/10 hover:border-emerald-500/30 px-3.5 py-1.5 rounded-lg text-slate-200 transition-colors shadow-sm inline-flex items-center gap-1.5">
+            <span class="bg-navy-850 border border-white/15 hover:border-emerald-500/40 px-3 py-1.5 rounded-lg text-slate-100 transition-colors shadow-sm inline-flex items-center gap-1.5">
               <span class="text-sm">🇳🇬</span> President
             </span>
-            <span class="bg-navy-850/90 hover:bg-navy-800 border border-white/10 hover:border-emerald-500/30 px-3.5 py-1.5 rounded-lg text-slate-200 transition-colors shadow-sm inline-flex items-center gap-1.5">
+            <span class="bg-navy-850 border border-white/15 hover:border-emerald-500/40 px-3 py-1.5 rounded-lg text-slate-100 transition-colors shadow-sm inline-flex items-center gap-1.5">
               <span class="text-sm">🏛️</span> Senator
             </span>
-            <span class="bg-navy-850/90 hover:bg-navy-800 border border-white/10 hover:border-emerald-500/30 px-3.5 py-1.5 rounded-lg text-slate-200 transition-colors shadow-sm inline-flex items-center gap-1.5">
+            <span class="bg-navy-850 border border-white/15 hover:border-emerald-500/40 px-3 py-1.5 rounded-lg text-slate-100 transition-colors shadow-sm inline-flex items-center gap-1.5">
               <span class="text-sm">🗳️</span> House of Representatives
             </span>
-            <span class="bg-navy-850/90 hover:bg-navy-800 border border-white/10 hover:border-emerald-500/30 px-3.5 py-1.5 rounded-lg text-slate-200 transition-colors shadow-sm inline-flex items-center gap-1.5">
+            <span class="bg-navy-850 border border-white/15 hover:border-emerald-500/40 px-3 py-1.5 rounded-lg text-slate-100 transition-colors shadow-sm inline-flex items-center gap-1.5">
               <span class="text-sm">🏛️</span> Governor
             </span>
-            <span class="bg-navy-850/90 hover:bg-navy-800 border border-white/10 hover:border-emerald-500/30 px-3.5 py-1.5 rounded-lg text-slate-200 transition-colors shadow-sm inline-flex items-center gap-1.5">
+            <span class="bg-navy-850 border border-white/15 hover:border-emerald-500/40 px-3 py-1.5 rounded-lg text-slate-100 transition-colors shadow-sm inline-flex items-center gap-1.5">
               <span class="text-sm">⚖️</span> House of Assembly
             </span>
           </div>
 
-          <!-- Hero Call-To-Action Buttons (Requirement 4) -->
-          <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-3">
-            <a href="#solutions" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-bold px-7 py-3.5 rounded-xl text-sm sm:text-base transition-all duration-200 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-400/40 transform hover:-translate-y-0.5">
-              <i class="fa-solid fa-laptop-code text-base"></i>
-              <span>View Live Campaign Site Demo</span>
-            </a>
-            <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." 
+          <!-- Hero Call-To-Action Buttons: Live Demo button completely removed, Mobile-First 48px Touch Targets -->
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-3 w-full max-w-md sm:max-w-none mx-auto">
+            <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages." 
                target="_blank" 
                rel="noopener noreferrer" 
-               class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-white/10 hover:bg-white/15 text-white border border-white/20 hover:border-emerald-400/50 font-bold px-7 py-3.5 rounded-xl text-sm sm:text-base transition-all duration-200">
-              <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
+               class="w-full sm:w-auto min-h-[48px] inline-flex items-center justify-center gap-2.5 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-black px-7 py-3.5 sm:py-4 rounded-xl text-sm sm:text-base transition-all duration-200 shadow-xl shadow-emerald-500/25 hover:shadow-emerald-400/40 transform hover:-translate-y-0.5">
+              <i class="fa-brands fa-whatsapp text-xl"></i>
               <span>Request Website Package via WhatsApp</span>
+            </a>
+            <a href="#pricing" 
+               class="w-full sm:w-auto min-h-[48px] inline-flex items-center justify-center gap-2.5 bg-white/10 hover:bg-white/15 text-white border border-white/20 hover:border-emerald-400/50 font-bold px-7 py-3.5 sm:py-4 rounded-xl text-sm sm:text-base transition-all duration-200">
+              <i class="fa-solid fa-tags text-emerald-400"></i>
+              <span>View Packages & Pricing</span>
             </a>
           </div>
 
           <!-- Data Credibility Badge & Visual Hook Transition -->
           <div class="pt-3">
-            <div class="inline-flex flex-wrap items-center justify-center gap-2 text-[11px] sm:text-xs text-slate-400 bg-navy-950/80 px-4 py-2 rounded-full border border-white/10 shadow-inner">
+            <div class="inline-flex flex-wrap items-center justify-center gap-2 text-[11px] sm:text-xs text-slate-300 bg-navy-950 px-4 py-2 rounded-full border border-white/10 shadow-inner">
               <i class="fa-solid fa-circle-check text-emerald-400"></i>
-              <span class="font-medium text-slate-300">Built-in Political Data Engine: Backed by real-time constituency analytics & voter priority modeling</span>
-              <span class="text-slate-600 hidden sm:inline">•</span>
-              <span class="text-slate-400">Calibrated against INEC 176,846 Polling Units Matrix</span>
+              <span class="font-medium text-slate-200">Built-in Political Data Engine: Backed by real-time constituency analytics & voter priority modeling</span>
+              <span class="text-slate-400 hidden sm:inline">•</span>
+              <span class="text-slate-300">Calibrated against INEC 176,846 Polling Units Matrix</span>
             </div>
           </div>
 
         </div>
 
         <!-- REAL-TIME POLITICAL INTELLIGENCE DASHBOARD (ABOVE-THE-FOLD COMMAND CENTER) -->
-        <div class="mt-12 lg:mt-16">
-          <div class="glass-panel rounded-3xl p-4 sm:p-7 border-2 border-emerald-500/30 shadow-2xl shadow-emerald-950/40">
+        <div class="mt-10 sm:mt-12 lg:mt-16">
+          <div class="glass-panel rounded-2xl sm:rounded-3xl p-4 sm:p-7 border-2 border-emerald-500/30 shadow-2xl shadow-emerald-950/40">
             
-            <!-- Dashboard Header Bar -->
-            <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-white/10 gap-4">
+            <!-- Dashboard Header Bar (Mobile-First Responsive Flex/Grid) -->
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between pb-5 border-b border-white/10 gap-4">
               <div class="flex items-center gap-3">
-                <div class="w-3 h-3 rounded-full bg-emerald-400 animate-ping"></div>
+                <div class="w-3 h-3 rounded-full bg-emerald-400 animate-ping shrink-0"></div>
                 <div>
-                  <h3 class="font-display text-lg sm:text-xl font-bold text-white flex items-center gap-2">
-                    National Political Intelligence Monitor
-                    <span class="text-xs font-mono font-normal text-emerald-400 bg-emerald-950/80 px-2.5 py-0.5 rounded border border-emerald-500/30">Q3-2026 CYCLE</span>
+                  <h3 class="font-display text-base sm:text-xl font-bold text-white flex flex-wrap items-center gap-2">
+                    <span>National Political Intelligence Monitor</span>
+                    <span class="text-[10px] sm:text-xs font-mono font-bold text-emerald-400 bg-emerald-950/90 px-2 py-0.5 rounded border border-emerald-500/30">Q3-2026 CYCLE</span>
                   </h3>
-                  <p class="text-xs text-slate-400">Multi-source aggregated sentiment from social platforms, local radio broadcasts & ward field intelligence</p>
+                  <p class="text-xs text-slate-300 mt-0.5">Multi-source aggregated sentiment from social platforms, local radio broadcasts & ward field intelligence</p>
                 </div>
               </div>
 
-              <!-- Quick Top Metrics Row -->
-              <div class="flex items-center gap-3 sm:gap-6 text-xs">
-                <div class="bg-navy-900/90 border border-white/10 px-3.5 py-2 rounded-xl text-center">
-                  <div class="text-slate-400 text-[10px] uppercase font-bold">Audited Units</div>
-                  <div class="text-emerald-400 font-extrabold text-sm sm:text-base font-mono">176,846 PUs</div>
+              <!-- Quick Top Metrics Row: Responsive 3-column Grid for Mobile & Desktop -->
+              <div class="grid grid-cols-3 gap-2 sm:gap-4 text-xs w-full lg:w-auto">
+                <div class="bg-navy-900/90 border border-white/15 px-2.5 sm:px-3.5 py-2 rounded-xl text-center">
+                  <div class="text-slate-300 text-[10px] uppercase font-bold">Audited Units</div>
+                  <div class="text-emerald-400 font-black text-xs sm:text-base font-mono">176,846 PUs</div>
                 </div>
-                <div class="bg-navy-900/90 border border-white/10 px-3.5 py-2 rounded-xl text-center">
-                  <div class="text-slate-400 text-[10px] uppercase font-bold">Voter Pulse Index</div>
-                  <div class="text-teal-300 font-extrabold text-sm sm:text-base font-mono">+64.8 pts</div>
+                <div class="bg-navy-900/90 border border-white/15 px-2.5 sm:px-3.5 py-2 rounded-xl text-center">
+                  <div class="text-slate-300 text-[10px] uppercase font-bold">Voter Pulse</div>
+                  <div class="text-teal-300 font-black text-xs sm:text-base font-mono">+64.8 pts</div>
                 </div>
-                <div class="bg-navy-900/90 border border-white/10 px-3.5 py-2 rounded-xl text-center">
-                  <div class="text-slate-400 text-[10px] uppercase font-bold">Signal Refresh</div>
-                  <div class="text-slate-300 font-extrabold text-sm sm:text-base font-mono">Live / Real-Time</div>
+                <div class="bg-navy-900/90 border border-white/15 px-2.5 sm:px-3.5 py-2 rounded-xl text-center">
+                  <div class="text-slate-300 text-[10px] uppercase font-bold">Signal Refresh</div>
+                  <div class="text-white font-black text-xs sm:text-base font-mono">Real-Time</div>
                 </div>
               </div>
             </div>
@@ -332,40 +333,40 @@
                 <div>
                   <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
                     <div>
-                      <h4 class="font-display font-bold text-white text-base flex items-center gap-2">
+                      <h4 class="font-display font-bold text-white text-sm sm:text-base flex items-center gap-2">
                         <i class="fa-solid fa-chart-column text-emerald-400"></i>
                         Top Decisive Issues Influencing Nigerian Voters
                       </h4>
-                      <p class="text-xs text-slate-400">Voter intent analysis on factors determining candidate choice at polling booths</p>
+                      <p class="text-xs text-slate-300">Voter intent analysis on factors determining candidate choice at polling booths</p>
                     </div>
 
-                    <!-- Chart Demographic Switcher -->
-                    <div class="flex items-center gap-1 bg-navy-950 p-1 rounded-lg border border-white/10 shrink-0 self-start sm:self-auto">
-                      <button type="button" onclick="setChartCohort('all')" id="btn-cohort-all" class="px-2.5 py-1 rounded text-xs font-semibold bg-emerald-500 text-navy-950 transition-all cursor-pointer">
+                    <!-- Chart Demographic Switcher (Mobile-First Touch targets) -->
+                    <div class="flex items-center gap-1 bg-navy-950 p-1.5 rounded-xl border border-white/10 shrink-0 w-full sm:w-auto justify-between sm:justify-start">
+                      <button type="button" onclick="setChartCohort('all')" id="btn-cohort-all" class="flex-1 sm:flex-initial min-h-[36px] px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-500 text-navy-950 transition-all cursor-pointer text-center">
                         All Voters
                       </button>
-                      <button type="button" onclick="setChartCohort('youth')" id="btn-cohort-youth" class="px-2.5 py-1 rounded text-xs font-semibold text-slate-400 hover:text-white transition-all cursor-pointer">
+                      <button type="button" onclick="setChartCohort('youth')" id="btn-cohort-youth" class="flex-1 sm:flex-initial min-h-[36px] px-3 py-1.5 rounded-lg text-xs font-bold text-slate-300 hover:text-white hover:bg-white/5 transition-all cursor-pointer text-center">
                         Youth (18-35)
                       </button>
-                      <button type="button" onclick="setChartCohort('rural')" id="btn-cohort-rural" class="px-2.5 py-1 rounded text-xs font-semibold text-slate-400 hover:text-white transition-all cursor-pointer">
-                        Grassroots Wards
+                      <button type="button" onclick="setChartCohort('rural')" id="btn-cohort-rural" class="flex-1 sm:flex-initial min-h-[36px] px-3 py-1.5 rounded-lg text-xs font-bold text-slate-300 hover:text-white hover:bg-white/5 transition-all cursor-pointer text-center">
+                        Grassroots
                       </button>
                     </div>
                   </div>
 
                   <!-- Chart Canvas Container -->
-                  <div class="relative w-full h-[270px] sm:h-[300px]">
+                  <div class="relative w-full h-[260px] sm:h-[300px]">
                     <canvas id="voterPriorityChart"></canvas>
                   </div>
                 </div>
 
                 <!-- Chart Insight Footnote -->
-                <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-slate-400">
-                  <span id="chart-insight-text">
+                <div class="mt-4 pt-3 border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-slate-200">
+                  <span id="chart-insight-text" class="text-slate-200 leading-relaxed">
                     <i class="fa-solid fa-lightbulb text-amber-400 mr-1.5"></i>
                     <strong>Strategic Note:</strong> Candidates with clear, localized economic relief & security messaging gain +28% voter persuasion lift.
                   </span>
-                  <span class="text-[11px] font-mono text-emerald-400 hidden sm:inline">N=142,500 sample</span>
+                  <span class="text-[11px] font-mono text-emerald-400 shrink-0 hidden sm:inline">N=142,500 sample</span>
                 </div>
               </div>
 
@@ -380,7 +381,7 @@
                         <i class="fa-solid fa-gauge-high text-emerald-400"></i>
                         Voter Sentiment Barometer
                       </h4>
-                      <p class="text-xs text-slate-400">Public mood analysis across political conversations</p>
+                      <p class="text-xs text-slate-200 font-medium">Public mood analysis across political conversations</p>
                     </div>
                     <span class="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/20">
                       NET: POSITIVE
@@ -396,46 +397,46 @@
                     </div>
 
                     <div class="grid grid-cols-3 gap-2 text-center text-xs pt-1">
-                      <div class="bg-navy-950/80 p-2 rounded-xl border border-white/5">
+                      <div class="bg-navy-950/80 p-2 rounded-xl border border-white/10">
                         <div class="flex items-center justify-center gap-1 text-emerald-400 font-bold">
                           <i class="fa-solid fa-arrow-trend-up text-[10px]"></i> 58%
                         </div>
-                        <div class="text-[10px] text-slate-400 mt-0.5">Favorable</div>
+                        <div class="text-[10px] text-slate-200 font-semibold mt-0.5">Favorable</div>
                       </div>
-                      <div class="bg-navy-950/80 p-2 rounded-xl border border-white/5">
-                        <div class="flex items-center justify-center gap-1 text-blue-400 font-bold">
+                      <div class="bg-navy-950/80 p-2 rounded-xl border border-white/10">
+                        <div class="flex items-center justify-center gap-1 text-blue-300 font-bold">
                           <i class="fa-solid fa-equals text-[10px]"></i> 26%
                         </div>
-                        <div class="text-[10px] text-slate-400 mt-0.5">Undecided</div>
+                        <div class="text-[10px] text-slate-200 font-semibold mt-0.5">Undecided</div>
                       </div>
-                      <div class="bg-navy-950/80 p-2 rounded-xl border border-white/5">
-                        <div class="flex items-center justify-center gap-1 text-rose-400 font-bold">
+                      <div class="bg-navy-950/80 p-2 rounded-xl border border-white/10">
+                        <div class="flex items-center justify-center gap-1 text-rose-300 font-bold">
                           <i class="fa-solid fa-arrow-trend-down text-[10px]"></i> 16%
                         </div>
-                        <div class="text-[10px] text-slate-400 mt-0.5">Critical</div>
+                        <div class="text-[10px] text-slate-200 font-semibold mt-0.5">Critical</div>
                       </div>
                     </div>
                   </div>
 
                   <!-- Channel Monitoring Breakdown -->
                   <div class="mt-4 pt-3 border-t border-white/10 space-y-2 text-xs">
-                    <div class="flex justify-between items-center text-slate-300">
+                    <div class="flex justify-between items-center text-slate-200">
                       <span class="flex items-center gap-2">
                         <i class="fa-brands fa-whatsapp text-emerald-400"></i> WhatsApp Groups & Broadcasts
                       </span>
-                      <span class="font-bold text-emerald-400">74% High Engagement</span>
+                      <span class="font-bold text-emerald-300">74% High Engagement</span>
                     </div>
-                    <div class="flex justify-between items-center text-slate-300">
+                    <div class="flex justify-between items-center text-slate-200">
                       <span class="flex items-center gap-2">
-                        <i class="fa-solid fa-radio text-blue-400"></i> Local Townhalls & Community Radio
+                        <i class="fa-solid fa-radio text-blue-300"></i> Local Townhalls & Community Radio
                       </span>
                       <span class="font-bold text-teal-300">68% Receptivity</span>
                     </div>
-                    <div class="flex justify-between items-center text-slate-300">
+                    <div class="flex justify-between items-center text-slate-200">
                       <span class="flex items-center gap-2">
-                        <i class="fa-brands fa-x-twitter text-slate-400"></i> Social Media (X / Facebook)
+                        <i class="fa-brands fa-x-twitter text-slate-300"></i> Social Media (X / Facebook)
                       </span>
-                      <span class="font-bold text-slate-300">54% Competitive</span>
+                      <span class="font-bold text-slate-100">54% Competitive</span>
                     </div>
                   </div>
 
@@ -443,31 +444,31 @@
 
                 <!-- Real-Time Political Intelligence Signals Ticker -->
                 <div class="bg-navy-900/90 rounded-2xl p-4 sm:p-5 border border-white/10">
-                  <div class="flex items-center justify-between text-xs font-bold text-slate-300 mb-2.5">
+                  <div class="flex items-center justify-between text-xs font-bold text-slate-200 mb-2.5">
                     <span class="flex items-center gap-1.5 text-emerald-400">
                       <i class="fa-solid fa-satellite-dish"></i> LIVE CONSTITUENCY RADAR SIGNALS
                     </span>
-                    <span class="text-[10px] font-mono text-slate-500">AUTO-STREAM</span>
+                    <span class="text-[10px] font-mono text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/30">AUTO-STREAM</span>
                   </div>
 
                   <div id="radar-signals-container" class="space-y-2 text-xs">
-                    <div class="p-2.5 rounded-xl bg-navy-950/80 border border-white/5 flex items-start gap-2.5">
+                    <div class="p-2.5 rounded-xl bg-navy-950/80 border border-white/10 flex items-start gap-2.5">
                       <span class="w-2 h-2 rounded-full bg-emerald-400 mt-1 shrink-0"></span>
                       <div>
-                        <p class="text-slate-200 font-medium leading-snug">
+                        <p class="text-slate-100 font-medium leading-snug">
                           <strong>North-Central Zone:</strong> Surge in youth voter PVC collection following rural town hall commitments.
                         </p>
-                        <span class="text-[10px] text-slate-500 font-mono">2 mins ago • Plateau & Benue Axis</span>
+                        <span class="text-[10px] text-slate-300 font-mono">2 mins ago • Plateau & Benue Axis</span>
                       </div>
                     </div>
 
-                    <div class="p-2.5 rounded-xl bg-navy-950/80 border border-white/5 flex items-start gap-2.5">
+                    <div class="p-2.5 rounded-xl bg-navy-950/80 border border-white/10 flex items-start gap-2.5">
                       <span class="w-2 h-2 rounded-full bg-blue-400 mt-1 shrink-0"></span>
                       <div>
-                        <p class="text-slate-200 font-medium leading-snug">
+                        <p class="text-slate-100 font-medium leading-snug">
                           <strong>South-West Metropolis:</strong> Economic policy clarity is the #1 deciding factor among market women cooperatives.
                         </p>
-                        <span class="text-[10px] text-slate-500 font-mono">8 mins ago • Lagos & Oyo Wards</span>
+                        <span class="text-[10px] text-slate-300 font-mono">8 mins ago • Lagos & Oyo Wards</span>
                       </div>
                     </div>
                   </div>
@@ -503,76 +504,76 @@
         <div class="max-w-5xl mx-auto glass-panel rounded-3xl p-6 sm:p-8 border border-white/10 shadow-2xl">
           
           <!-- State Selection Bar -->
-          <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pb-6 border-b border-white/10">
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 pb-6 border-b border-white/10">
             <div class="w-full sm:w-auto">
-              <label for="state-selector" class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">
+              <label for="state-selector" class="block text-xs font-bold uppercase tracking-wider text-slate-200 mb-1.5">
                 Select Nigerian State / Constituency:
               </label>
               <div class="relative">
-                <select id="state-selector" onchange="updateStateMetrics()" class="w-full sm:w-72 bg-navy-900 text-white font-semibold text-sm rounded-xl px-4 py-3 border border-emerald-500/50 focus:border-emerald-400 focus:outline-none appearance-none pr-10 shadow-lg cursor-pointer">
-                  <option value="lagos" selected>Lagos State (South-West)</option>
-                  <option value="kano">Kano State (North-West)</option>
-                  <option value="rivers">Rivers State (South-South)</option>
-                  <option value="kaduna">Kaduna State (North-West)</option>
-                  <option value="oyo">Oyo State (South-West)</option>
-                  <option value="anambra">Anambra State (South-East)</option>
-                  <option value="borno">Borno State (North-East)</option>
-                  <option value="plateau">Plateau State (North-Central)</option>
-                  <option value="delta">Delta State (South-South)</option>
-                  <option value="imo">Imo State (South-East)</option>
+                <select id="state-selector" onchange="updateStateMetrics()" class="w-full sm:w-80 min-h-[48px] bg-navy-900 text-white font-bold text-sm rounded-xl px-4 py-3 border border-emerald-500/50 focus:border-emerald-400 focus:outline-none appearance-none pr-10 shadow-lg cursor-pointer">
+                  <option value="lagos" selected class="bg-[#0b132b] text-white py-2">Lagos State (South-West)</option>
+                  <option value="kano" class="bg-[#0b132b] text-white py-2">Kano State (North-West)</option>
+                  <option value="rivers" class="bg-[#0b132b] text-white py-2">Rivers State (South-South)</option>
+                  <option value="kaduna" class="bg-[#0b132b] text-white py-2">Kaduna State (North-West)</option>
+                  <option value="oyo" class="bg-[#0b132b] text-white py-2">Oyo State (South-West)</option>
+                  <option value="anambra" class="bg-[#0b132b] text-white py-2">Anambra State (South-East)</option>
+                  <option value="borno" class="bg-[#0b132b] text-white py-2">Borno State (North-East)</option>
+                  <option value="plateau" class="bg-[#0b132b] text-white py-2">Plateau State (North-Central)</option>
+                  <option value="delta" class="bg-[#0b132b] text-white py-2">Delta State (South-South)</option>
+                  <option value="imo" class="bg-[#0b132b] text-white py-2">Imo State (South-East)</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-emerald-400">
-                  <i class="fa-solid fa-chevron-down text-xs"></i>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3.5 text-emerald-400">
+                  <i class="fa-solid fa-chevron-down text-sm"></i>
                 </div>
               </div>
             </div>
 
-            <!-- Dynamic State Badge Indicator -->
-            <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end">
-              <div class="text-right">
-                <div id="state-geopolitical-zone" class="text-xs text-slate-400 font-semibold">South-West Geopolitical Zone</div>
-                <div id="state-status-badge" class="text-sm font-bold text-emerald-400 flex items-center justify-end gap-1.5">
-                  <span class="w-2 h-2 rounded-full bg-emerald-400"></span> High Priority Battleground
+            <!-- Dynamic State Badge Indicator & Action -->
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3 w-full sm:w-auto justify-between sm:justify-end">
+              <div class="text-left sm:text-right">
+                <div id="state-geopolitical-zone" class="text-xs text-slate-200 font-semibold">South-West Geopolitical Zone</div>
+                <div id="state-status-badge" class="text-sm font-bold text-emerald-400 flex items-center sm:justify-end gap-1.5">
+                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span> High Priority Battleground
                 </div>
               </div>
-              <a id="btn-state-whatsapp" href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." target="_blank" rel="noopener noreferrer" class="bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-bold px-4 py-2.5 rounded-xl text-xs flex items-center gap-2 transition-all shrink-0">
-                <i class="fa-brands fa-whatsapp text-sm"></i>
-                <span>Get State Campaign Demo</span>
+              <a id="btn-state-whatsapp" href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto min-h-[44px] bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-bold px-4 py-2.5 rounded-xl text-xs flex items-center justify-center gap-2 transition-all shrink-0 shadow-md">
+                <i class="fa-brands fa-whatsapp text-base"></i>
+                <span>Order State Campaign Hub</span>
               </a>
             </div>
           </div>
 
           <!-- Numerical Metrics Grid (LGAs, Wards, PUs, Registered Voters) -->
-          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mt-6">
             
             <div class="bg-navy-900/80 p-4 rounded-2xl border border-white/10">
-              <div class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Registered Voters (PVC)</div>
+              <div class="text-[11px] text-slate-200 uppercase font-bold tracking-wider">Registered Voters (PVC)</div>
               <div id="stat-registered-voters" class="text-xl sm:text-2xl font-black text-white font-mono mt-1">7,060,195</div>
-              <div class="text-[10px] text-emerald-400 mt-1 flex items-center gap-1">
+              <div class="text-[10px] text-emerald-300 font-semibold mt-1 flex items-center gap-1">
                 <i class="fa-solid fa-id-card"></i> INEC Official Register
               </div>
             </div>
 
             <div class="bg-navy-900/80 p-4 rounded-2xl border border-white/10">
-              <div class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Local Gov Areas (LGAs)</div>
+              <div class="text-[11px] text-slate-200 uppercase font-bold tracking-wider">Local Gov Areas (LGAs)</div>
               <div id="stat-total-lgas" class="text-xl sm:text-2xl font-black text-emerald-400 font-mono mt-1">20 LGAs</div>
-              <div id="stat-total-wards" class="text-[10px] text-slate-400 mt-1">
+              <div id="stat-total-wards" class="text-[10px] text-slate-300 font-medium mt-1">
                 245 Electoral Wards
               </div>
             </div>
 
             <div class="bg-navy-900/80 p-4 rounded-2xl border border-white/10">
-              <div class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Polling Units (PUs)</div>
+              <div class="text-[11px] text-slate-200 uppercase font-bold tracking-wider">Polling Units (PUs)</div>
               <div id="stat-polling-units" class="text-xl sm:text-2xl font-black text-teal-300 font-mono mt-1">13,325 PUs</div>
-              <div class="text-[10px] text-slate-400 mt-1">
+              <div class="text-[10px] text-slate-300 font-medium mt-1">
                 Field Agent Quota: 26,650
               </div>
             </div>
 
             <div class="bg-navy-900/80 p-4 rounded-2xl border border-white/10">
-              <div class="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Projected Turnout</div>
+              <div class="text-[11px] text-slate-200 uppercase font-bold tracking-wider">Projected Turnout</div>
               <div id="stat-turnout-rate" class="text-xl sm:text-2xl font-black text-amber-300 font-mono mt-1">32.8% - 38.5%</div>
-              <div class="text-[10px] text-slate-400 mt-1">
+              <div class="text-[10px] text-slate-300 font-medium mt-1">
                 Historical Mobilization Window
               </div>
             </div>
@@ -588,13 +589,13 @@
                 <i class="fa-solid fa-bullseye text-emerald-400"></i>
                 <span>Top Decisive Voter Issues in <span id="label-state-name" class="text-emerald-400">Lagos</span></span>
               </div>
-              <p id="state-top-issue" class="text-xs text-slate-300 leading-relaxed">
+              <p id="state-top-issue" class="text-xs text-slate-200 leading-relaxed">
                 Urban transport cost, cost of living, youth tech economy grants, and small business taxation relief across Alimosho, Kosofe, and Oshodi-Isolo clusters.
               </p>
               <div class="pt-1 flex flex-wrap gap-1.5 text-[11px]" id="state-tag-pills">
-                <span class="bg-white/5 text-slate-300 px-2.5 py-0.5 rounded border border-white/10">Economy (88%)</span>
-                <span class="bg-white/5 text-slate-300 px-2.5 py-0.5 rounded border border-white/10">Urban Transit</span>
-                <span class="bg-white/5 text-slate-300 px-2.5 py-0.5 rounded border border-white/10">Youth Employment</span>
+                <span class="bg-navy-950 text-slate-200 px-2.5 py-0.5 rounded border border-white/15">Economy (88%)</span>
+                <span class="bg-navy-950 text-slate-200 px-2.5 py-0.5 rounded border border-white/15">Urban Transit</span>
+                <span class="bg-navy-950 text-slate-200 px-2.5 py-0.5 rounded border border-white/15">Youth Employment</span>
               </div>
             </div>
 
@@ -604,12 +605,12 @@
                 <i class="fa-solid fa-chess-knight text-emerald-400"></i>
                 <span>VotesMatrix Recommended Strategy</span>
               </div>
-              <p id="state-operational-strategy" class="text-xs text-slate-300 leading-relaxed">
+              <p id="state-operational-strategy" class="text-xs text-slate-200 leading-relaxed">
                 Deploy ward-level WhatsApp voice broadcast in Yoruba & Pidgin English. Train 2 certified agents per PU with offline EC8A camera reporting to preempt collation delays.
               </p>
               <div class="pt-1 flex items-center justify-between text-xs text-emerald-400 font-semibold">
                 <span><i class="fa-solid fa-check-double mr-1"></i> Pre-configured Template Ready</span>
-                <span class="text-slate-400 text-[11px]">Deploy in 48 Hours</span>
+                <span class="text-slate-300 text-[11px]">Deploy in 48 Hours</span>
               </div>
             </div>
 
@@ -626,13 +627,13 @@
         
         <!-- Transition Headline -->
         <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <span class="inline-block bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider">
+          <span class="inline-block bg-emerald-950/90 text-emerald-300 border border-emerald-500/40 text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
             High-Command Operations Suite
           </span>
           <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
-            Turn Intelligence into <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Electoral Victory</span> with VotesMatrix
+            Turn Intelligence into <span class="text-emerald-400">Electoral Victory</span> with VotesMatrix
           </h2>
-          <p class="text-slate-300 text-base sm:text-lg">
+          <p class="text-slate-200 text-base sm:text-lg font-medium leading-relaxed">
             A comprehensive, battle-tested campaign operating system engineered specifically for the harsh dynamics and logistical complexities of Nigerian elections.
           </p>
         </div>
@@ -649,10 +650,10 @@
               <h3 class="font-display text-xl font-bold text-white">
                 Central Vision & Policy Hub
               </h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
+              <p class="text-sm text-slate-200 leading-relaxed font-normal">
                 An authoritative digital headquarters presenting candidate manifestos, policy video addresses, town hall schedules, and verified records without social media algorithm censorship.
               </p>
-              <ul class="space-y-2 text-xs text-slate-300 pt-2">
+              <ul class="space-y-2 text-xs text-slate-200 pt-2 font-medium">
                 <li class="flex items-center gap-2">
                   <i class="fa-solid fa-check text-emerald-400"></i>
                   <span>Multi-lingual audio dispatch (English, Hausa, Yoruba, Igbo, Pidgin)</span>
@@ -684,10 +685,10 @@
               <h3 class="font-display text-xl font-bold text-white">
                 Real-Time PVT & Result Proof (EC8A)
               </h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
+              <p class="text-sm text-slate-200 leading-relaxed font-normal">
                 Offline-capable mobile reporting tools for polling unit agents to upload verified results and Form EC8A photos with immutable GPS coordinates and timestamps before collation tampering can occur.
               </p>
-              <ul class="space-y-2 text-xs text-slate-300 pt-2">
+              <ul class="space-y-2 text-xs text-slate-200 pt-2 font-medium">
                 <li class="flex items-center gap-2">
                   <i class="fa-solid fa-check text-emerald-400"></i>
                   <span>Form EC8A cryptographic SHA-256 validation</span>
@@ -718,10 +719,10 @@
               <h3 class="font-display text-xl font-bold text-white">
                 Supporter Voice & Feedback Engine
               </h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
+              <p class="text-sm text-slate-200 leading-relaxed font-normal">
                 Transform passive spectators into vocal grassroots advocates. Capture real-time constituency grievances, run localized ward polls, and listen directly to constituent needs.
               </p>
-              <ul class="space-y-2 text-xs text-slate-300 pt-2">
+              <ul class="space-y-2 text-xs text-slate-200 pt-2 font-medium">
                 <li class="flex items-center gap-2">
                   <i class="fa-solid fa-check text-emerald-400"></i>
                   <span>Interactive Ward Priority Polling widgets</span>
@@ -750,10 +751,10 @@
               <h3 class="font-display text-xl font-bold text-white">
                 WhatsApp Outreach & Digital Endorsements
               </h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
+              <p class="text-sm text-slate-200 leading-relaxed font-normal">
                 Nigeria votes on WhatsApp. VotesMatrix integrates 1-click broadcast templates and gamified digital endorsement card generators that viralize your message across status updates and groups.
               </p>
-              <ul class="space-y-2 text-xs text-slate-300 pt-2">
+              <ul class="space-y-2 text-xs text-slate-200 pt-2 font-medium">
                 <li class="flex items-center gap-2">
                   <i class="fa-solid fa-check text-emerald-400"></i>
                   <span>Automated Supporter Endorsement Card Generator</span>
@@ -782,10 +783,10 @@
               <h3 class="font-display text-xl font-bold text-white">
                 Field Agent & Volunteer Coordinator
               </h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
+              <p class="text-sm text-slate-200 leading-relaxed font-normal">
                 Eliminate ghost agents and logistic wastage. Manage ward canvassers, polling booth monitors, and supervisory directors across all polling units with low-bandwidth check-ins.
               </p>
-              <ul class="space-y-2 text-xs text-slate-300 pt-2">
+              <ul class="space-y-2 text-xs text-slate-200 pt-2 font-medium">
                 <li class="flex items-center gap-2">
                   <i class="fa-solid fa-check text-emerald-400"></i>
                   <span>Geofenced PU agent presence check-in at 7:30 AM</span>
@@ -814,10 +815,10 @@
               <h3 class="font-display text-xl font-bold text-white">
                 Central Campaign War Room
               </h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
+              <p class="text-sm text-slate-200 leading-relaxed font-normal">
                 A single high-command screen for the Candidate Principal, Campaign DG, and Legal Advisory team. Real-time tally updates, incident alerts, and court-admissible evidence archives.
               </p>
-              <ul class="space-y-2 text-xs text-slate-300 pt-2">
+              <ul class="space-y-2 text-xs text-slate-200 pt-2 font-medium">
                 <li class="flex items-center gap-2">
                   <i class="fa-solid fa-check text-emerald-400"></i>
                   <span>Live Electoral Collation Map by Ward & LGA</span>
@@ -899,7 +900,7 @@
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
                   <span class="font-bold text-white uppercase font-mono">SIMULATED AGENT TERMINAL (OFFLINE READY)</span>
                 </div>
-                <span class="text-slate-400 font-mono">PU: 24-08-03-014</span>
+                <span class="text-slate-200 font-mono font-bold">PU: 24-08-03-014</span>
               </div>
 
               <!-- Simulator State Display -->
@@ -907,17 +908,17 @@
                 
                 <!-- Polling Unit Profile Metadata -->
                 <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-xs">
-                  <div class="bg-navy-900 p-2.5 rounded-xl border border-white/5">
-                    <span class="text-slate-500 text-[10px] block uppercase">Constituency</span>
-                    <strong class="text-slate-200">Ikeja Fed. Constituency</strong>
+                  <div class="bg-navy-900 p-2.5 rounded-xl border border-white/10">
+                    <span class="text-slate-300 font-bold text-[10px] block uppercase">Constituency</span>
+                    <strong class="text-slate-100 font-semibold">Ikeja Fed. Constituency</strong>
                   </div>
-                  <div class="bg-navy-900 p-2.5 rounded-xl border border-white/5">
-                    <span class="text-slate-500 text-[10px] block uppercase">Ward & Unit</span>
-                    <strong class="text-slate-200">Ward 03, PU 014 (Alausa)</strong>
+                  <div class="bg-navy-900 p-2.5 rounded-xl border border-white/10">
+                    <span class="text-slate-300 font-bold text-[10px] block uppercase">Ward & Unit</span>
+                    <strong class="text-slate-100 font-semibold">Ward 03, PU 014 (Alausa)</strong>
                   </div>
-                  <div class="bg-navy-900 p-2.5 rounded-xl border border-white/5 col-span-2 sm:col-span-1">
-                    <span class="text-slate-500 text-[10px] block uppercase">Accredited Voters</span>
-                    <strong class="text-emerald-400 font-mono">482 Voters</strong>
+                  <div class="bg-navy-900 p-2.5 rounded-xl border border-white/10 col-span-2 sm:col-span-1">
+                    <span class="text-slate-300 font-bold text-[10px] block uppercase">Accredited Voters</span>
+                    <strong class="text-emerald-400 font-mono font-bold">482 Voters</strong>
                   </div>
                 </div>
 
@@ -934,51 +935,51 @@
 
                   <!-- Vote Entry Inputs -->
                   <div class="grid grid-cols-3 gap-3 text-center text-xs">
-                    <div class="bg-navy-950 p-2.5 rounded-xl border border-white/5">
+                    <div class="bg-navy-950 p-2.5 rounded-xl border border-white/10">
                       <div class="text-[10px] text-emerald-400 font-bold">OUR CANDIDATE</div>
                       <div id="sim-votes-candidate" class="text-lg font-black text-white font-mono mt-1">318</div>
-                      <div class="text-[10px] text-slate-500">65.9%</div>
+                      <div class="text-[10px] text-slate-200 font-semibold">65.9%</div>
                     </div>
-                    <div class="bg-navy-950 p-2.5 rounded-xl border border-white/5">
-                      <div class="text-[10px] text-rose-400 font-bold">OPPOSITION A</div>
-                      <div id="sim-votes-opp1" class="text-lg font-black text-slate-300 font-mono mt-1">112</div>
-                      <div class="text-[10px] text-slate-500">23.2%</div>
+                    <div class="bg-navy-950 p-2.5 rounded-xl border border-white/10">
+                      <div class="text-[10px] text-rose-300 font-bold">OPPOSITION A</div>
+                      <div id="sim-votes-opp1" class="text-lg font-black text-slate-100 font-mono mt-1">112</div>
+                      <div class="text-[10px] text-slate-200 font-semibold">23.2%</div>
                     </div>
-                    <div class="bg-navy-950 p-2.5 rounded-xl border border-white/5">
-                      <div class="text-[10px] text-amber-400 font-bold">OPPOSITION B</div>
-                      <div id="sim-votes-opp2" class="text-lg font-black text-slate-300 font-mono mt-1">45</div>
-                      <div class="text-[10px] text-slate-500">9.3%</div>
+                    <div class="bg-navy-950 p-2.5 rounded-xl border border-white/10">
+                      <div class="text-[10px] text-amber-300 font-bold">OPPOSITION B</div>
+                      <div id="sim-votes-opp2" class="text-lg font-black text-slate-100 font-mono mt-1">45</div>
+                      <div class="text-[10px] text-slate-200 font-semibold">9.3%</div>
                     </div>
                   </div>
 
                   <!-- Hash & Geotag Security Block -->
-                  <div id="pvt-security-block" class="bg-navy-950/90 p-3 rounded-xl border border-white/5 font-mono text-[11px] space-y-1 text-slate-400">
+                  <div id="pvt-security-block" class="bg-navy-950/90 p-3 rounded-xl border border-white/10 font-mono text-[11px] space-y-1 text-slate-200">
                     <div class="flex justify-between">
-                      <span>GPS Lock:</span>
-                      <span class="text-emerald-400">6.6018° N, 3.3515° E (±2.4m)</span>
+                      <span class="text-slate-300">GPS Lock:</span>
+                      <span class="text-emerald-400 font-bold">6.6018° N, 3.3515° E (±2.4m)</span>
                     </div>
                     <div class="flex justify-between truncate">
-                      <span>SHA-256 Hash:</span>
-                      <span id="pvt-hash-display" class="text-slate-300">e3b0c44298fc1c149afbf4c8996fb92427ae41e4...</span>
+                      <span class="text-slate-300">SHA-256 Hash:</span>
+                      <span id="pvt-hash-display" class="text-slate-200">e3b0c44298fc1c149afbf4c8996fb92427ae41e4...</span>
                     </div>
                     <div class="flex justify-between">
-                      <span>INEC Presiding Officer:</span>
-                      <span class="text-slate-300">Signed & Stamp Verified</span>
+                      <span class="text-slate-300">INEC Presiding Officer:</span>
+                      <span class="text-emerald-400 font-bold">Signed & Stamp Verified</span>
                     </div>
                   </div>
 
                   <!-- Simulation Trigger Buttons -->
                   <div class="flex flex-col sm:flex-row items-center gap-2 pt-1">
-                    <button type="button" onclick="runPvtSimulation()" id="btn-run-pvt" class="w-full sm:w-auto flex-1 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition-all cursor-pointer">
-                      <i class="fa-solid fa-fingerprint"></i>
+                    <button type="button" onclick="runPvtSimulation()" id="btn-run-pvt" class="w-full sm:w-auto flex-1 min-h-[44px] bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition-all cursor-pointer shadow-md">
+                      <i class="fa-solid fa-fingerprint text-base"></i>
                       <span>Simulate Form EC8A Cryptographic Lock</span>
                     </button>
-                    <button type="button" onclick="resetPvtSimulation()" class="w-full sm:w-auto bg-white/5 hover:bg-white/10 text-slate-300 py-2.5 px-4 rounded-xl text-xs font-semibold border border-white/10 transition-colors cursor-pointer">
+                    <button type="button" onclick="resetPvtSimulation()" class="w-full sm:w-auto min-h-[44px] bg-white/10 hover:bg-white/15 text-slate-200 py-2.5 px-4 rounded-xl text-xs font-bold border border-white/20 transition-colors cursor-pointer">
                       Reset
                     </button>
                   </div>
 
-                  <p id="pvt-result-message" class="text-[11px] text-slate-400 text-center italic pt-1">
+                  <p id="pvt-result-message" class="text-xs text-slate-200 text-center font-medium pt-1">
                     Click the button above to simulate how an agent securely transmits PU results before leaving the booth.
                   </p>
 
@@ -1158,50 +1159,55 @@
         </div>
 
         <!-- Head-to-Head Comparison Table -->
-        <div class="mt-16 glass-panel rounded-3xl p-6 sm:p-8 border border-white/10">
-          <h4 class="font-display text-xl font-bold text-white text-center mb-6">
+        <div class="mt-16 glass-panel rounded-3xl p-5 sm:p-8 border border-white/10">
+          <h4 class="font-display text-xl sm:text-2xl font-bold text-white text-center mb-4">
             VotesMatrix Campaign Hub vs. Conventional Agency WordPress Sites
           </h4>
 
-          <div class="overflow-x-auto">
-            <table class="w-full text-left text-xs sm:text-sm">
+          <div class="sm:hidden flex items-center justify-center gap-1.5 text-xs text-emerald-300 bg-emerald-500/15 py-1.5 px-3 rounded-lg border border-emerald-500/30 mb-4">
+            <i class="fa-solid fa-arrows-left-right"></i>
+            <span>Scroll horizontally to view full comparison</span>
+          </div>
+
+          <div class="overflow-x-auto -mx-2 px-2">
+            <table class="w-full text-left text-xs sm:text-sm min-w-[560px]">
               <thead>
-                <tr class="border-b border-white/10 text-slate-400 uppercase text-[11px]">
-                  <th class="pb-3 font-bold">Campaign Capability</th>
-                  <th class="pb-3 font-bold text-emerald-400">VotesMatrix Campaign Hub</th>
-                  <th class="pb-3 font-bold text-slate-400">Generic WordPress / Agency Site</th>
+                <tr class="border-b border-white/15 text-slate-200 uppercase text-[11px]">
+                  <th class="pb-3.5 font-bold">Campaign Capability</th>
+                  <th class="pb-3.5 font-bold text-emerald-400">VotesMatrix Campaign Hub</th>
+                  <th class="pb-3.5 font-bold text-slate-300">Generic Agency WordPress</th>
                 </tr>
               </thead>
-              <tbody class="divide-y divide-white/5 text-slate-300">
+              <tbody class="divide-y divide-white/10 text-slate-100">
                 <tr>
                   <td class="py-3.5 font-semibold text-white">Delivery Turnaround</td>
-                  <td class="py-3.5 text-emerald-400 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Live & Deployed in 48 Hours</td>
-                  <td class="py-3.5 text-rose-400"><i class="fa-solid fa-xmark mr-1.5"></i> 4 to 8 Weeks Slow Turnaround</td>
+                  <td class="py-3.5 text-emerald-300 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Live & Deployed in 48 Hours</td>
+                  <td class="py-3.5 text-rose-300 font-semibold"><i class="fa-solid fa-xmark mr-1.5"></i> 4 to 8 Weeks Slow Turnaround</td>
                 </tr>
                 <tr>
                   <td class="py-3.5 font-semibold text-white">Viral Supporter Card Generator</td>
-                  <td class="py-3.5 text-emerald-400 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Built-in 1-Click WhatsApp Status Share</td>
-                  <td class="py-3.5 text-rose-400"><i class="fa-solid fa-xmark mr-1.5"></i> Not Available / Requires Designer</td>
+                  <td class="py-3.5 text-emerald-300 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Built-in 1-Click WhatsApp Status Share</td>
+                  <td class="py-3.5 text-rose-300 font-semibold"><i class="fa-solid fa-xmark mr-1.5"></i> Not Available / Requires Designer</td>
                 </tr>
                 <tr>
                   <td class="py-3.5 font-semibold text-white">Polling Unit Agent Reporting (EC8A)</td>
-                  <td class="py-3.5 text-emerald-400 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Mobile Agent Form with Photo Capture</td>
-                  <td class="py-3.5 text-rose-400"><i class="fa-solid fa-xmark mr-1.5"></i> Generic Contact Form Only</td>
+                  <td class="py-3.5 text-emerald-300 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Mobile Agent Form with Photo Capture</td>
+                  <td class="py-3.5 text-rose-300 font-semibold"><i class="fa-solid fa-xmark mr-1.5"></i> Generic Contact Form Only</td>
                 </tr>
                 <tr>
                   <td class="py-3.5 font-semibold text-white">2G Rural Mobile Optimization</td>
-                  <td class="py-3.5 text-emerald-400 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Ultra-Fast &lt;700KB Page Weight</td>
-                  <td class="py-3.5 text-rose-400"><i class="fa-solid fa-xmark mr-1.5"></i> Heavy Bloated Plugins Crash on 3G</td>
+                  <td class="py-3.5 text-emerald-300 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Ultra-Fast &lt;700KB Page Weight</td>
+                  <td class="py-3.5 text-rose-300 font-semibold"><i class="fa-solid fa-xmark mr-1.5"></i> Heavy Bloated Plugins Crash on 3G</td>
                 </tr>
                 <tr>
                   <td class="py-3.5 font-semibold text-white">WhatsApp Campaign Routing</td>
-                  <td class="py-3.5 text-emerald-400 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Ward & LGA Dynamic Community Routing</td>
-                  <td class="py-3.5 text-rose-400"><i class="fa-solid fa-xmark mr-1.5"></i> Static Social Media Icons</td>
+                  <td class="py-3.5 text-emerald-300 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Ward & LGA Dynamic Community Routing</td>
+                  <td class="py-3.5 text-rose-300 font-semibold"><i class="fa-solid fa-xmark mr-1.5"></i> Static Social Media Icons</td>
                 </tr>
                 <tr>
                   <td class="py-3.5 font-semibold text-white">Data Privacy & Security</td>
-                  <td class="py-3.5 text-emerald-400 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Dedicated Cloud Container & NDPR Compliant</td>
-                  <td class="py-3.5 text-rose-400"><i class="fa-solid fa-xmark mr-1.5"></i> Vulnerable Shared PHP Web Hosting</td>
+                  <td class="py-3.5 text-emerald-300 font-bold"><i class="fa-solid fa-check-circle mr-1.5"></i> Dedicated Cloud Container & NDPR Compliant</td>
+                  <td class="py-3.5 text-rose-300 font-semibold"><i class="fa-solid fa-xmark mr-1.5"></i> Vulnerable Shared PHP Web Hosting</td>
                 </tr>
               </tbody>
             </table>
@@ -1239,7 +1245,7 @@
                 <span>⚡ Standard Package</span>
               </div>
               <h3 class="font-display text-2xl font-bold text-white">Standard Campaign Site</h3>
-              <p class="text-xs text-slate-400 leading-relaxed">
+              <p class="text-xs text-slate-200 leading-relaxed font-medium">
                 Ideal for State House of Assembly aspirants, LGA Chairmen, and emergent candidates needing an authoritative digital presence immediately.
               </p>
               
@@ -1253,7 +1259,7 @@
               </div>
 
               <!-- Feature Checklist -->
-              <div class="space-y-3 text-xs text-slate-300">
+              <div class="space-y-3 text-xs text-slate-200">
                 <div class="font-bold text-white text-[11px] uppercase tracking-wider">Package Inclusions:</div>
                 <ul class="space-y-2.5">
                   <li class="flex items-start gap-2.5">
@@ -1288,8 +1294,8 @@
               <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20the%20Standard%20Campaign%20Site%20package%20for%20my%20campaign.%20Please%20share%20details." 
                  target="_blank" 
                  rel="noopener noreferrer" 
-                 class="w-full inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white border border-white/20 hover:border-emerald-400 font-bold py-3.5 px-4 rounded-xl text-xs sm:text-sm transition-all duration-200">
-                <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                 class="w-full min-h-[48px] inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white border border-white/25 hover:border-emerald-400 font-bold py-3.5 px-4 rounded-xl text-xs sm:text-sm transition-all duration-200 shadow-sm">
+                <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
                 <span>Choose Package via WhatsApp</span>
               </a>
             </div>
@@ -1299,7 +1305,7 @@
           <div class="glass-panel rounded-3xl p-8 flex flex-col justify-between space-y-6 border-2 border-emerald-500 relative shadow-2xl shadow-emerald-500/20 bg-[#0e1838]">
             
             <!-- Popular Badge -->
-            <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-500 to-teal-400 text-navy-950 text-[11px] font-black uppercase tracking-widest px-4 py-1 rounded-full shadow-lg">
+            <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-500 to-teal-400 text-navy-950 text-[11px] font-black uppercase tracking-widest px-4 py-1 rounded-full shadow-lg whitespace-nowrap">
               ★ Most Popular • Governor & Senate
             </div>
 
@@ -1308,7 +1314,7 @@
                 <span>🔥 Full Grassroots Mobilization</span>
               </div>
               <h3 class="font-display text-2xl font-black text-white">Pro Supporter Hub</h3>
-              <p class="text-xs text-slate-300 leading-relaxed">
+              <p class="text-xs text-slate-200 leading-relaxed font-medium">
                 Complete voter mobilization engine for Gubernatorial candidates, Senatorial campaigns, and competitive House of Representatives races.
               </p>
               
@@ -1322,7 +1328,7 @@
               </div>
 
               <!-- Feature Checklist -->
-              <div class="space-y-3 text-xs text-slate-200">
+              <div class="space-y-3 text-xs text-slate-100">
                 <div class="font-bold text-emerald-400 text-[11px] uppercase tracking-wider">Everything in Standard Package, Plus:</div>
                 <ul class="space-y-2.5">
                   <li class="flex items-start gap-2.5">
@@ -1357,8 +1363,8 @@
               <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20the%20Pro%20Supporter%20Hub%20package%20for%20my%20campaign.%20Please%20share%20details." 
                  target="_blank" 
                  rel="noopener noreferrer" 
-                 class="w-full inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-black py-4 px-4 rounded-xl text-sm transition-all duration-200 shadow-xl shadow-emerald-500/30 transform hover:-translate-y-0.5">
-                <i class="fa-brands fa-whatsapp text-lg"></i>
+                 class="w-full min-h-[48px] inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-black py-4 px-4 rounded-xl text-sm transition-all duration-200 shadow-xl shadow-emerald-500/30 transform hover:-translate-y-0.5">
+                <i class="fa-brands fa-whatsapp text-xl"></i>
                 <span>Choose Package via WhatsApp</span>
               </a>
             </div>
@@ -1371,7 +1377,7 @@
                 <span>🛡️ High Command & War Room</span>
               </div>
               <h3 class="font-display text-2xl font-bold text-white">Enterprise Campaign Suite</h3>
-              <p class="text-xs text-slate-400 leading-relaxed">
+              <p class="text-xs text-slate-200 leading-relaxed font-medium">
                 Engineered for Presidential campaigns, Statewide Directorates, and Party High Command operations demanding full election-day result protection.
               </p>
               
@@ -1385,7 +1391,7 @@
               </div>
 
               <!-- Feature Checklist -->
-              <div class="space-y-3 text-xs text-slate-300">
+              <div class="space-y-3 text-xs text-slate-200">
                 <div class="font-bold text-white text-[11px] uppercase tracking-wider">Everything in Pro Package, Plus:</div>
                 <ul class="space-y-2.5">
                   <li class="flex items-start gap-2.5">
@@ -1420,8 +1426,8 @@
               <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20the%20Enterprise%20Campaign%20Suite%20package%20for%20my%20campaign.%20Please%20share%20details." 
                  target="_blank" 
                  rel="noopener noreferrer" 
-                 class="w-full inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white border border-white/20 hover:border-emerald-400 font-bold py-3.5 px-4 rounded-xl text-xs sm:text-sm transition-all duration-200">
-                <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                 class="w-full min-h-[48px] inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white border border-white/25 hover:border-emerald-400 font-bold py-3.5 px-4 rounded-xl text-xs sm:text-sm transition-all duration-200 shadow-sm">
+                <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
                 <span>Choose Package via WhatsApp</span>
               </a>
             </div>
@@ -1431,7 +1437,7 @@
 
         <!-- Custom Campaign Hotline Note -->
         <div class="mt-12 text-center">
-          <p class="text-xs sm:text-sm text-slate-400">
+          <p class="text-xs sm:text-sm text-slate-200 font-medium">
             Need a custom coalition package or multi-constituency party rollout? 
             <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-bold underline ml-1">
               Speak with our Technical Campaign Director on WhatsApp
@@ -1483,13 +1489,13 @@
 
           <!-- Prominent Contact Card with Phone Number -->
           <div class="pt-6 border-t border-white/10 max-w-2xl mx-auto">
-            <div class="bg-navy-900/90 rounded-2xl p-5 border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="bg-navy-900/90 rounded-2xl p-5 border border-white/15 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div class="flex items-center gap-3 text-left">
                 <div class="w-12 h-12 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xl shrink-0">
                   <i class="fa-solid fa-phone-volume"></i>
                 </div>
                 <div>
-                  <div class="text-[11px] uppercase tracking-wider text-slate-400 font-bold">Official Strategic Hotline</div>
+                  <div class="text-[11px] uppercase tracking-wider text-slate-200 font-bold">Official Strategic Hotline</div>
                   <a href="tel:09068887282" class="text-xl sm:text-2xl font-black text-white hover:text-emerald-400 transition-colors font-mono">
                     09068887282
                   </a>
@@ -1497,31 +1503,31 @@
               </div>
 
               <div class="text-center sm:text-right">
-                <div class="text-xs text-emerald-400 font-semibold flex items-center gap-1.5 justify-center sm:justify-end">
+                <div class="text-xs text-emerald-400 font-bold flex items-center gap-1.5 justify-center sm:justify-end">
                   <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Available 24/7 for Campaign Leaders
                 </div>
-                <div class="text-[11px] text-slate-400 mt-0.5">Confidential, NDA-ready consultations</div>
+                <div class="text-xs text-slate-200 mt-0.5 font-medium">Confidential, NDA-ready consultations</div>
               </div>
             </div>
           </div>
 
           <!-- Quick Role Inquiries Options -->
           <div class="space-y-3 pt-2">
-            <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Select Your Campaign Scope for Customized Package Details:</p>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-200">Select Your Campaign Scope for Customized Package Details:</p>
             <div class="flex flex-wrap items-center justify-center gap-2">
-              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20Presidential%20campaign." target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10 transition-colors">
+              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20Presidential%20campaign." target="_blank" rel="noopener noreferrer" class="min-h-[40px] px-3.5 py-2 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/15 text-white border border-white/20 transition-colors flex items-center gap-1.5">
                 🇳🇬 Presidential
               </a>
-              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20Gubernatorial%20campaign." target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10 transition-colors">
-                🏛️ Gubernatorial
+              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20Gubernatorial%20campaign." target="_blank" rel="noopener noreferrer" class="min-h-[40px] px-3.5 py-2 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/15 text-white border border-white/20 transition-colors flex items-center gap-1.5">
+                🏛️ Governor
               </a>
-              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20Senatorial%20campaign." target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10 transition-colors">
-                🏛️ Senatorial
+              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20Senatorial%20campaign." target="_blank" rel="noopener noreferrer" class="min-h-[40px] px-3.5 py-2 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/15 text-white border border-white/20 transition-colors flex items-center gap-1.5">
+                🏛️ Senator
               </a>
-              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20House%20of%20Representatives%20campaign." target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10 transition-colors">
-                🗳️ House of Reps
+              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20House%20of%20Representatives%20campaign." target="_blank" rel="noopener noreferrer" class="min-h-[40px] px-3.5 py-2 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/15 text-white border border-white/20 transition-colors flex items-center gap-1.5">
+                🗳️ House of Representatives
               </a>
-              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20State%20House%20of%20Assembly%20campaign." target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10 transition-colors">
+              <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20inquiring%20about%20a%20campaign%20website%20for%20a%20State%20House%20of%20Assembly%20campaign." target="_blank" rel="noopener noreferrer" class="min-h-[40px] px-3.5 py-2 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/15 text-white border border-white/20 transition-colors flex items-center gap-1.5">
                 ⚖️ House of Assembly
               </a>
             </div>
@@ -1533,7 +1539,7 @@
     </section>
 
     <!-- FOOTER (EXECUTIVE, STRICTLY NO X/LINKEDIN OR PHYSICAL ADDRESS) -->
-    <footer class="bg-navy-950 border-t border-white/10 py-12 text-xs text-slate-400">
+    <footer class="bg-navy-950 border-t border-white/10 py-12 text-xs text-slate-300">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-white/10">
           
@@ -1543,10 +1549,10 @@
               <i class="fa-solid fa-shield-halved text-emerald-400 text-xl"></i>
               <span class="font-display font-extrabold text-xl text-white tracking-tight">Votes<span class="text-emerald-400">Matrix</span></span>
             </div>
-            <p class="text-slate-400 leading-relaxed text-xs max-w-sm">
+            <p class="text-slate-200 leading-relaxed text-xs max-w-sm font-medium">
               Fast, high-impact digital campaign websites and supporter mobilization hubs for Nigerian political candidates. Built for real votes, viral WhatsApp grassroots engagement, and total election security.
             </p>
-            <div class="flex items-center gap-2 pt-1 text-emerald-400 font-semibold">
+            <div class="flex items-center gap-2 pt-1 text-emerald-400 font-bold">
               <i class="fa-solid fa-shield-check"></i>
               <span>NDPR Data Privacy Compliant • 99.9% Uptime Guarantee</span>
             </div>
@@ -1555,7 +1561,7 @@
           <!-- Quick Links -->
           <div class="md:col-span-3 space-y-2">
             <div class="text-white font-bold uppercase tracking-wider text-[11px]">Platform Navigation</div>
-            <ul class="space-y-2 text-slate-400 text-xs">
+            <ul class="space-y-2 text-slate-200 text-xs font-medium">
               <li><a href="#intelligence" class="hover:text-emerald-400 transition-colors">Voter Intelligence Dashboard</a></li>
               <li><a href="#constituency-lookup" class="hover:text-emerald-400 transition-colors">Constituency Lookup Tool</a></li>
               <li><a href="#solutions" class="hover:text-emerald-400 transition-colors">Campaign Hub Features</a></li>
@@ -1569,17 +1575,17 @@
           <div class="md:col-span-4 space-y-3">
             <div class="text-white font-bold uppercase tracking-wider text-[11px]">Direct Campaign Channels</div>
             <div class="space-y-2 text-xs">
-              <div class="flex items-center gap-2 text-slate-300">
+              <div class="flex items-center gap-2 text-slate-100">
                 <i class="fa-solid fa-phone text-emerald-400 w-4"></i>
-                <a href="tel:09068887282" class="hover:text-emerald-400 font-mono font-bold">09068887282</a>
+                <a href="tel:09068887282" class="hover:text-emerald-400 font-mono font-bold text-sm">09068887282</a>
               </div>
-              <div class="flex items-center gap-2 text-slate-300">
-                <i class="fa-brands fa-whatsapp text-emerald-400 w-4"></i>
-                <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400">
+              <div class="flex items-center gap-2 text-slate-100">
+                <i class="fa-brands fa-whatsapp text-emerald-400 w-4 text-base"></i>
+                <a href="https://wa.me/2349068887282?text=Hello%20VotesMatrix,%20I%20am%20interested%20in%20building%20a%20Digital%20Campaign%20Hub%20website%20for%20my%20election%20campaign.%20Please%20share%20your%20packages%20and%20demo%20links." target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 font-bold">
                   wa.me/2349068887282
                 </a>
               </div>
-              <div class="pt-2 text-[11px] text-slate-500">
+              <div class="pt-2 text-xs text-slate-300 font-medium">
                 Direct briefing line for Candidates, Campaign Directors, and Party Strategy Desks.
               </div>
             </div>
@@ -1587,11 +1593,11 @@
 
         </div>
 
-        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px]">
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-300 text-xs font-medium">
           <div>
             &copy; 2026-2027 VotesMatrix Nigeria. All rights reserved. Fast, high-impact digital campaign websites.
           </div>
-          <div class="flex items-center gap-4">
+          <div class="flex items-center gap-4 text-slate-300">
             <span>Powered by VotesMatrix Tech Agency</span>
           </div>
         </div>
@@ -1604,14 +1610,14 @@
        target="_blank" 
        rel="noopener noreferrer" 
        aria-label="Direct WhatsApp Campaign Desk 09068887282" 
-       class="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-bold py-3 px-4 sm:px-5 rounded-full shadow-2xl shadow-emerald-500/40 transform hover:scale-105 transition-all duration-200 cursor-pointer">
+       class="fixed bottom-6 right-4 sm:right-6 z-50 flex items-center gap-2.5 min-h-[48px] bg-emerald-500 hover:bg-emerald-400 text-navy-950 font-black py-3 px-4 sm:px-5 rounded-full shadow-2xl shadow-emerald-500/40 transform hover:scale-105 transition-all duration-200 cursor-pointer">
       <span class="relative flex h-3 w-3">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-navy-950 opacity-75"></span>
         <span class="relative inline-flex rounded-full h-3 w-3 bg-navy-950"></span>
       </span>
       <i class="fa-brands fa-whatsapp text-xl text-navy-950"></i>
       <span class="text-xs sm:text-sm font-black hidden sm:inline">Get Campaign Website: 09068887282</span>
-      <span class="text-xs font-black sm:hidden">WhatsApp</span>
+      <span class="text-xs font-black sm:hidden">WhatsApp Desk</span>
     </a>
 
     <!-- BACK TO TOP SCROLL BUTTON (BOTTOM-LEFT) -->
@@ -1793,7 +1799,7 @@
             if (c === cohortKey) {
               btn.className = "px-2.5 py-1 rounded text-xs font-semibold bg-emerald-500 text-navy-950 transition-all cursor-pointer";
             } else {
-              btn.className = "px-2.5 py-1 rounded text-xs font-semibold text-slate-400 hover:text-white transition-all cursor-pointer";
+              btn.className = "px-2.5 py-1 rounded text-xs font-bold text-slate-200 hover:text-white transition-all cursor-pointer";
             }
           }
         });
